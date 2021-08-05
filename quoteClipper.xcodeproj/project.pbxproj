@@ -11,6 +11,10 @@
 		F694330B26BBBD8E00AD896F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694330A26BBBD8E00AD896F /* ContentView.swift */; };
 		F694330D26BBBD9000AD896F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F694330C26BBBD9000AD896F /* Assets.xcassets */; };
 		F694331026BBBD9000AD896F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F694330F26BBBD9000AD896F /* Preview Assets.xcassets */; };
+		F694331826BBBDE400AD896F /* QuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694331726BBBDE400AD896F /* QuoteListView.swift */; };
+		F694331A26BBBE1500AD896F /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694331926BBBE1500AD896F /* QuoteView.swift */; };
+		F694331C26BBBE3800AD896F /* ScanDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694331B26BBBE3800AD896F /* ScanDocumentView.swift */; };
+		F694332D26BBC61200AD896F /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F694332C26BBC61200AD896F /* PlayfairDisplay-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		F694330C26BBBD9000AD896F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F694330F26BBBD9000AD896F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F694331126BBBD9000AD896F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F694331726BBBDE400AD896F /* QuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListView.swift; sourceTree = "<group>"; };
+		F694331926BBBE1500AD896F /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		F694331B26BBBE3800AD896F /* ScanDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDocumentView.swift; sourceTree = "<group>"; };
+		F694332C26BBC61200AD896F /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 			children = (
 				F694330826BBBD8E00AD896F /* quoteClipperApp.swift */,
 				F694330A26BBBD8E00AD896F /* ContentView.swift */,
+				F694332C26BBC61200AD896F /* PlayfairDisplay-Bold.ttf */,
+				F694331926BBBE1500AD896F /* QuoteView.swift */,
+				F694331726BBBDE400AD896F /* QuoteListView.swift */,
 				F694330C26BBBD9000AD896F /* Assets.xcassets */,
 				F694331126BBBD9000AD896F /* Info.plist */,
 				F694330E26BBBD9000AD896F /* Preview Content */,
+				F694331B26BBBE3800AD896F /* ScanDocumentView.swift */,
 			);
 			path = quoteClipper;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F694332D26BBC61200AD896F /* PlayfairDisplay-Bold.ttf in Resources */,
 				F694331026BBBD9000AD896F /* Preview Assets.xcassets in Resources */,
 				F694330D26BBBD9000AD896F /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +153,9 @@
 			files = (
 				F694330B26BBBD8E00AD896F /* ContentView.swift in Sources */,
 				F694330926BBBD8E00AD896F /* quoteClipperApp.swift in Sources */,
+				F694331826BBBDE400AD896F /* QuoteListView.swift in Sources */,
+				F694331C26BBBE3800AD896F /* ScanDocumentView.swift in Sources */,
+				F694331A26BBBE1500AD896F /* QuoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yuriko.quoteClipper;
+				PRODUCT_BUNDLE_IDENTIFIER = yuricoder.quoteClipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yuriko.quoteClipper;
+				PRODUCT_BUNDLE_IDENTIFIER = yuricoder.quoteClipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
